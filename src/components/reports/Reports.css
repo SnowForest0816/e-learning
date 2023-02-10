@@ -1,0 +1,265 @@
+.reports-nav {
+    position: relative;
+    height: 387px;
+    background: #F4FFE5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 61px 0px 37px 0px; 
+}
+
+.reports-nav-img {
+    position: absolute;
+    right: calc(50vw - 430px);
+    top: 118px;
+}
+
+.reports-nav-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.reports-nav-text > h1 {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 82.03%;
+    color: #282626;
+}
+
+.reports-nav-text > p {
+    width: 530px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+}
+
+.reports-nav > button {
+    width: 178px;
+    height: 42px;
+    background: #3F3F3F;
+    border-radius: 5px;
+    border: hidden;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.reports-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 0px 0px 60px;
+}
+
+.reports-token-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.reports-charts {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 60px;
+    gap: 85px;
+}
+
+.reports-charts-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.reports-charts-overview > h1 {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    color: #1D1D1D;
+    padding-left: 55px;
+}
+
+.reports-charts-stats {
+    width: 636px;
+    height: 510px;
+    background: #F4FFE5;
+    border-radius: 24px;
+    border: hidden;
+}
+
+.reports-charts-stats > h1 {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    color: #1D1D1D;
+    padding: 20px 0px 30px 40px;
+}
+
+.chart-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px 0;
+}
+
+.chart-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-card > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #1D1D1D;
+}
+
+.chart-card > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #1D1D1D;
+}
+
+svg {
+    max-width: 100%;
+    vertical-align: middle;
+    margin-top: -130px;
+    margin-left: 45px;
+}
+
+.svg-pi {
+    width: 135px;
+    height: 135px;
+    transform: rotate(-78deg); /* Fix the orientation */
+}
+
+.svg-pi-43 {
+    stroke-dashoffset: 143.184px;
+    stroke-width: 5px;
+}
+
+.svg-pi-indicator-flashcard {
+    stroke: #FF5B55;
+    stroke-dasharray: 251.2px; /* DashArray = Track's or indicator's Circumference */
+    stroke-linecap: round;
+    cx: 50px;
+    cy: 50px;
+    r: 40px;
+    fill: transparent;
+    stroke-width: 10px;
+    stroke-dashoffset: 143.184px;
+    stroke-width: 5px;
+}
+  
+.svg-pi-track {
+    cx: 50px;
+    cy: 50px;
+    r: 40px;
+    fill: transparent;
+    stroke-width: 10px;
+}
+
+.svg-pi-indicator-exam {
+    stroke: #7FC41C;
+    stroke-dasharray: 251.2px; /* DashArray = Track's or indicator's Circumference */
+    stroke-linecap: round;
+    cx: 50px;
+    cy: 50px;
+    r: 40px;
+    fill: transparent;
+    stroke-width: 10px;
+    stroke-dashoffset: 143.184px;
+    stroke-width: 5px;
+}
+
+.svg-pi-73 {
+    stroke-dashoffset: 67.824px;
+    stroke-width: 5px;
+}
+
+.svg-pi-indicator-practice {
+    stroke: #FFB600;
+    stroke-dasharray: 250.08px; /* DashArray = Track's or indicator's Circumference */
+    stroke-linecap: round;
+    cx: 50px;
+    cy: 50px;
+    r: 40px;
+    fill: transparent;
+    stroke-width: 10px;
+    stroke-dashoffset: 67.824px;
+    stroke-width: 5px;
+}
+
+.svg-pi-indicator-test {
+    stroke: #68C9D2;
+    stroke-dasharray: 250.08px; /* DashArray = Track's or indicator's Circumference */
+    stroke-linecap: round;
+    cx: 50px;
+    cy: 50px;
+    r: 40px;
+    fill: transparent;
+    stroke-width: 10px;
+    stroke-dashoffset: 67.824px;
+    stroke-width: 5px;
+}
+
+.chart,
+.highcharts-container,
+.highcharts-loading-hidden,
+.highcharts-a11y-proxy-button,
+.highcharts-visually-hidden {
+    overflow: visible ! important;
+}
+
+.chart {
+    padding-top: 100px;
+}
+
+.select-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.select-bar > select {
+    width: 164px;
+    height: 37px;
+    border: 1px solid #5B5B5B;
+    border-radius: 8px;
+    font-family: 'Helvetica Now Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+    padding: 0px 10px 0px 10px;
+    margin: 4px;
+}

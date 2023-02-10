@@ -1,0 +1,94 @@
+.card {
+    height: 606px;
+    width: 347px;
+    background: #F4FFE5;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.card > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #282626;
+}
+
+.card > button {
+    width: 150px;
+    height: 44px;
+    background: #282626;
+    border-radius: 5px;
+    border: hidden;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.time-card {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.time-card-black {
+    width: 56px;
+    height: 61px;
+    background: #282626;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.time-card-green {
+    width: 56px;
+    height: 61px;
+    background: #7FC41C;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.time-clock {
+    text-align: center;
+}
+
+.time-clock > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #282626;
+    opacity: 0.5;
+}
+
+.time-type {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}

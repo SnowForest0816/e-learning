@@ -1,0 +1,292 @@
+.homepage-header {
+    position: relative;
+    height: 867px;
+    background-image: url('../../assets/img/1.png');
+    background-repeat: round;
+}
+
+.header-context {
+    position: absolute;
+    width: 30vw;
+    height: 588px;
+    background: #282626;
+    border-radius: 0px 100px 0px 0px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 27px 68px 0px 110px;
+}
+
+.header-context > h1 {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 82.03%;
+    color: #7FC41C;
+}
+
+.header-context > p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 116.12%;
+    color: #FFFFFF;
+}
+
+.header-context > button {
+    width: 178px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    background: #3F3F3F;
+    border-radius: 5px;
+    border: hidden;
+    color: white;
+}
+
+.home-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-gap: 28px;
+}
+
+.home-nav > a {
+    font-family: 'Inter';
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.home-nav > a:link { 
+    text-decoration: none; 
+}
+
+.home-nav > button {
+    font-family: 'Inter';
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    width: 130px;
+    height: 44px;
+    background-color: #7FC41C;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.homepage-practice {
+    height: 1024px;
+    background-image: url('../../assets/img/background-2.png');
+    background-color: #F4FFE5;
+    background-repeat: round;
+    padding: 150px 0px 20px 0px;
+}
+
+.homepage-practice-test {
+    display: flex;
+    justify-content: space-around;
+}
+
+.homepage-practice-text {
+    color: white;
+}
+
+.homepage-practice-text > h1 {
+    font-family: 'Anek Devanagari';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 82px;
+}
+
+.homepage-practice-text > p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 134.69%;
+    width: 550px;
+}
+
+.homepage-practice-img {
+    padding-top: 50px;
+}
+
+.homepage-practice-topic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.homepage-practice-topic > h1 {
+    color: white;
+    font-family: 'Anek Devanagari';
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.homepage-practice-topic > h3 {
+    color: white;
+    font-family: 'Anek Devanagari';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.homepage-practice-topics {
+    display: flex;
+    gap: 150px
+}
+
+.topic {
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.homepage-flashcards {
+    background-color: #F4FFE5;
+    height: 887px;
+}
+
+.homepage-flashcards-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.homepage-flashcards-text > h1 {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 82px;
+    color: #282626;
+}
+
+.homepage-flashcards-text > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 134.69%;
+    color: #282626;
+    opacity: 0.77;
+}
+
+.homepage-flashcards-text > button {
+    width: 165px;
+    height: 44px;
+    background: #282626;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Roboto';
+    border: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.homepage-flashcards-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-exams {
+    padding: 80px 0px 60px 0px;
+}
+
+.homepage-exams-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homepage-exams-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0px 138px 0px;
+}
+
+.exams-content-text > h1 {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 82px;
+    color: #282626;
+}
+
+.exams-content-text > p {
+    width: 567px;
+    padding: 5px 0px 5px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 134.69%;
+    color: #282626;
+    opacity: 0.77;
+}
+
+.exams-content-text > button {
+    width: 150px;
+    height: 44px;
+    background: #282626;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: #FFFFFF;
+}
+
+.homepage-games {
+    height: 1087px;
+    background-color: #F4FFE5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.homepage-games-title {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 82px;
+    display: flex;
+    align-items: center;
+    color: #282626;
+}
+
+.homepage-games-cards {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 20px;
+}

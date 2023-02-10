@@ -1,0 +1,205 @@
+.casius-nav {
+    position: relative;
+    height: 450px;
+    background: #7FC41C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 61px 0px 37px 0px; 
+}
+
+.casius-nav-img {
+    position: absolute;
+    left: calc(50vw - 400px);
+    top: 244px;
+}
+
+.casius-nav-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.casius-nav-text > h1 {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 82.03%;
+}
+
+.casius-nav-text > p {
+    width: 420px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+}
+
+.casius-nav > button {
+    width: 178px;
+    height: 42px;
+    background: #3F3F3F;
+    border-radius: 5px;
+    border: hidden;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.casius-main {
+    height: 1354px;
+    background: #282626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.casius-main > h1 {
+    padding: 96px 0px 20px 0px;
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 82.03%;
+    color: #FFFFFF;
+}
+
+.casius-conver {
+    display: flex;
+    gap: 75px;
+}
+
+.casius-conver-nav {
+    width: 15vw;
+    height: 550px;
+    background: rgba(217,217,217, 0.1);
+    border-radius: 30px;  
+    padding: 32px 0px 0px 28px;  
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-item > div {
+    width: 31px;
+    height: 31px;
+    background: #D9D9D9;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item > p {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 82.03%;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.casius-conver-chat {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat-log > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 70px;
+    height: 28px;
+    background: #3C3C3E;
+    border-radius: 36px;
+    border: hidden;
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 82.03%;
+    color: #FFFFFF;
+}
+
+.chat-log {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.chat-send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.chat-send > input {
+    width: 80%;
+    height: 55px;
+    padding: 0px 39px 0px 39px;
+    background: #3C3C3E;
+    border-radius: 36px;
+    border: hidden;
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 82.03%;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.chat-send > button {
+    width: 60px;
+    height: 60px;
+    background: #3C3C3E;
+    border-radius: 100%;
+    border: hidden;
+}
+
+.send {
+    margin: 4px 0px 4px 0px;
+    width: 100%;
+    background: #53850C;
+    border-radius: 36px 36px 0px 36px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Anek Devanagari';
+    line-height: 139%;
+    padding: 20px 30px 20px 30px;
+}
+
+.receive {
+    margin: 4px 0px 4px 0px;
+    width: 100%;
+    background: #3C3C3E;
+    border-radius: 36px 36px 36px 0px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Anek Devanagari';
+    line-height: 139%;
+    padding: 20px 30px 20px 30px;
+}

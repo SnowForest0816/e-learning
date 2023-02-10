@@ -1,0 +1,228 @@
+.dashboard-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 230px;
+    background: #F4FFE5;
+    ;
+}
+
+.dashboard-main-progress {
+    padding-bottom: 20px;
+}
+
+.progress-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    gap: 180px;
+}
+
+.progress-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-icon > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.progress-icon > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.circle {
+    background: rgba(255, 255, 255, 0.57);
+    backdrop-filter: blur(2px);
+    width: 61px;
+    height: 61px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-active {
+    background: rgba(255, 255, 255, 0.32);
+    border: 1px solid rgba(127, 196, 28, 0.4);
+    backdrop-filter: blur(2px);
+    width: 61px;
+    height: 61px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.semi-circle {
+    width: 47px;
+    height: 47px;
+    border-radius: 100%;
+    background: #7FC41C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.dashboard-events > div > h1 {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    color: #1D1D1D;
+}
+
+.dashboard-events-notification {
+    width: 503.32px;
+    height: 537px;
+    background: #FFFFFF;
+    box-shadow: 0px 3.64068px 21.8441px rgba(0, 0, 0, 0.1);
+    border-radius: 21.8441px;
+}
+
+.dashboard-main-table {
+    width: 832px;
+    height: 390px;
+    background: #7FC41C;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.dashboard-main-table > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.dashboard-main-table > div {
+    width: 760px;
+    height: 279px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 720px;
+    padding: 10px 0px 10px 0px;
+}
+
+thead > tr > td {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid #5A9408;
+}
+
+tbody > tr > td {
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.dashboard-main > h1 {
+    padding-top: 60px;
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 82.03%;
+    color: #282626;
+}
+
+.dashboard-happenings {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.dashboard-happenings > h1 {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 82px;
+    color: #282626;
+}
+
+.dashboard-happenings-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dashboard-exams {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dashboard-exams > h1 {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 82px;
+    color: #282626;
+}
+
+.dashboard-exams-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dashboard-games {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.dashboard-games > h1 {
+    font-family: 'Anek Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 82px;
+    color: #282626;
+}
+
+.dashboard-games-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
